@@ -1,0 +1,73 @@
+img {
+    vertical-align: middle;
+    width: 150px;
+}
+.search_header input    {
+    
+    border-radius: 15px;
+    width: 100%;
+    height: 50px;
+}
+.title_header {
+    background-color:orange; /* Màu nền bạn mong muốn */
+    width: 100%; /* Đảm bảo chiếm toàn bộ chiều rộng màn hình */
+    padding: 10px 0; /* Khoảng đệm cho nội dung */
+}
+.footer_color{
+    height: 10px;
+    background-color: orange;
+}
+.row i {
+    
+    font-size: 40px; /* Kích thước của icon */
+    cursor: pointer;
+    
+}
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.chapter_background{
+    background-color:#333333 ;
+}
+.chapter_direct{
+    background-color:white ;
+    border-radius: 20px;
+    
+}
+.content_home{
+    background-color: #ebebeb;
+}
+.content_chapter{
+    background-color: #ebebeb;
+    
+}
+.chapter{
+    background-color: white;
+}
+.header{
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030; /* Đảm bảo header luôn trên các phần tử khác */
+    
+}
+.footer{
+    position: fixed;
+}
+.manganame{
+    text-decoration: none;
+}
+
+a {
+    color: inherit !important;        /* Xóa màu sắc */
+    text-decoration: none !important; /* Xóa gạch chân */
+    background: none !important;     /* Xóa nền */
+    border: none !important;         /* Xóa viền */
+    font-weight: inherit !important;  /* Xóa độ đậm của chữ */
+    font-style: inherit !important;   /* Xóa kiểu chữ */
+    cursor: pointer !important;         /* Đặt lại con trỏ chuột */
+}
